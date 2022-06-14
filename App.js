@@ -10,23 +10,19 @@ import React from 'react';
 import {
   SafeAreaView,
   ScrollView,
-  StatusBar,
-  StyleSheet,
   Text,
-  useColorScheme,
   View,
 } from 'react-native';
+import Vista from './src/homeView';
 
 
 const App  = () => {
 
   return (
     <SafeAreaView>
-      <ScrollView>
         <View>
-          <Text>Hola Como tas</Text>
+          <Vista/>
         </View>
-      </ScrollView>
     </SafeAreaView>
   );
 };
